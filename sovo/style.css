@@ -1,0 +1,128 @@
+/* Global styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #5C5ACF;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header styles */
+
+header {
+  background-color: #FFF;
+  border-bottom: 1px solid #DDD;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Hero section styles */
+
+.hero {
+  background-color: #5C5ACF;
+  color: #FFF;
+  padding: 4rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #FFF;
+  color: #5C5ACF;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #DDD;
+}
+
+/* Features section styles */
+
+.features {
+  background-color: #F6F6F6;
+  padding: 4rem;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Testimonial section styles */
+
+.testimonial {
+  background-color: #EEE;
+  padding: 4rem;
+  text-align: center;
+}
+
+.testimonial blockquote {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial cite {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+/* Footer styles */
+
+footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
